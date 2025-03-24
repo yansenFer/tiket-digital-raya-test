@@ -28,7 +28,7 @@ export default function ListHotelComponent({
               <h2 className="text-xl text-gray-600 font-semibold">
                 Hasil Pencarian{' '}
                 <span className="text-gray-500 text-sm">
-                  999 Hotel Ditemukan
+                  {dataHotel.length} Hotel Ditemukan
                 </span>
               </h2>
             </div>
